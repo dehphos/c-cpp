@@ -21,9 +21,9 @@ int main(){
             indeks = orta;
             break;
         }else if (dizi[orta]< aranan){
-            bas = orta+1;
+            bas = orta + 1;
         }else{
-            son = orta-1;
+            son = orta - 1;
         }
     }
 
@@ -32,5 +32,4 @@ int main(){
     }else{
         printf("%d bulunamadi.\n", aranan);
     }
-
 }

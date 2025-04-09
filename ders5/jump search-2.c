@@ -1,5 +1,5 @@
-/*      lineer search       */
-
+/*      jump search     */
+/*      sıralı dizilerde aramayı kolaylaştırmak için kullanılır       */
 #include <stdio.h>
 
 int main(){
