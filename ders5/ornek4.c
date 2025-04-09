@@ -1,4 +1,4 @@
-/*  lineer arama user input*/
+/*  lineer arama  */
 #include <stdio.h>
 
 int main(){
