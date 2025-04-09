@@ -6,9 +6,9 @@ int main(){
     int aranan;
     int indeks = -1;
 
-    printf("\n\n Dizi elemanlari: ");
+    printf("\n\n Dizi elemanlari:\n ");
     for(int j = 0; j<6; j++){
-        printf("%d ", dizi[j]);
+        printf("%d\t ", dizi[j]);
     }
     
     printf("\n\nAranacak elemani giriniz: ");
