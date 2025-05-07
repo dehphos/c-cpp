@@ -3,9 +3,14 @@
 int main(){
     int *ptam, tam = 33;
     ptam = &tam;
-    printf("tam icerik: %d \n", tam); 
-    printf("tam adresi: %p \n", &tam); 
-    printf("tam adersi: %p\n", ptam);
-    printf("ptam adresi: %p\n", &ptam);
-    printf("ptam icerik: %d\n", *ptam); 
+
+    printf("&tam = %p\n", &tam); 
+    printf("ptam = %p\n", ptam);
+    printf("tam = %d\n", tam);
+    printf("*ptam = %d\n", *ptam);
+
+    *ptam = 44;
+
+    printf("&tam = %p\n", &tam);
+    printf("ptam = %p\n", ptam);
 }
