@@ -8,7 +8,6 @@ int main(){
         pwm[i] = (int*) malloc(5 * sizeof(int));
     }
 
-    //restgele veri yaz
     for (int i = 0; i < 4; i++){
         for (int j = 0; j < 5; j++){
             pwm[i][j] = i*5+j*2; 
@@ -21,7 +20,6 @@ int main(){
         }
         printf("\n");}
 
-    // Belleği serbest bırak
     for (int i = 0; i < 4; i++){
         free(pwm[i]);
     }
